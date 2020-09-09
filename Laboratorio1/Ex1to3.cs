@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Laboratorio1
 {
-    class Ex1to4
+    class Ex1to3
     {
         public void Ex()
         {

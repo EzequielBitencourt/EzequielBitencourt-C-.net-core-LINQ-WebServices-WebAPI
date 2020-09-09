@@ -6,11 +6,12 @@ namespace Laboratorio1
     {
         static void Main(string[] args)
         {
-            Ex1to4 ex1To4 = new Ex1to4();
+            Ex1to3 ex1To3 = new Ex1to3();
+            Ex4 ex4 = new Ex4();
 
-            ex1To4.Ex();
-
-
+            ex1To3.Ex();
+            ex4.StringDia();
+            ex4.Conversor();
 
 
 
