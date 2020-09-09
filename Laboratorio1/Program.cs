@@ -6,7 +6,16 @@ namespace Laboratorio1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Ex1to4 ex1To4 = new Ex1to4();
+
+            ex1To4.Ex();
+
+
+
+
+
+
+
         }
     }
 }

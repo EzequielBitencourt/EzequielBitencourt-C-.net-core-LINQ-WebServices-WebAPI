@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ezequ\\source\\repos\\Laboratorio1\\Laboratorio1.csproj",
+      "projectUniqueName": "C:\\Users\\ezequ\\Source\\Repos\\EzequielBitencourt-EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\Laboratorio1\\Laboratorio1.csproj",
       "projectName": "Laboratorio1",
-      "projectPath": "C:\\Users\\ezequ\\source\\repos\\Laboratorio1\\Laboratorio1.csproj",
+      "projectPath": "C:\\Users\\ezequ\\Source\\Repos\\EzequielBitencourt-EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\Laboratorio1\\Laboratorio1.csproj",
       "packagesPath": "C:\\Users\\ezequ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ezequ\\source\\repos\\Laboratorio1\\obj\\",
+      "outputPath": "C:\\Users\\ezequ\\Source\\Repos\\EzequielBitencourt-EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\Laboratorio1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ezequ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
