@@ -6,7 +6,14 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Qual o seu nome? ");
+            var nome = Console.ReadLine();
+
+            var data = DateTime.Now;
+            Console.WriteLine($"\nAlô,{nome}, em {data:d} as {data:t}");
+            Console.Write("\nPressione qualquer tecla para sair...");
+            Console.ReadKey(true);
+
         }
     }
 }

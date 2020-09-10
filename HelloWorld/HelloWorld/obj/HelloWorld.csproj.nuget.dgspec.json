@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ezequiel_bittencourt\\source\\repos\\EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\ezequiel_bittencourt\\Source\\Repos\\EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ezequiel_bittencourt\\source\\repos\\EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\ezequiel_bittencourt\\Source\\Repos\\EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ezequiel_bittencourt\\source\\repos\\EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\ezequiel_bittencourt\\Source\\Repos\\EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\ezequiel_bittencourt\\source\\repos\\EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\Users\\ezequiel_bittencourt\\Source\\Repos\\EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\ezequiel_bittencourt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ezequiel_bittencourt\\source\\repos\\EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\HelloWorld\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\ezequiel_bittencourt\\Source\\Repos\\EzequielBitencourt-C-.net-core-LINQ-WebServices-WebAPI\\HelloWorld\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ezequiel_bittencourt\\AppData\\Roaming\\NuGet\\NuGet.Config",
