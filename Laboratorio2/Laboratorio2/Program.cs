@@ -11,6 +11,8 @@ namespace Laboratorio2
     {
         static void Main(string[] args)
         {
+
+            //Exemplos
             ExArrays exArrays = new ExArrays();
            
             Console.WriteLine("Ex 1:");
@@ -23,6 +25,13 @@ namespace Laboratorio2
 
             Console.WriteLine("Ex 3:");
             exArrays.Ex3();
+            Console.WriteLine("\n");
+
+            //Exercicio 1
+            Exercicio1 exercicio1 = new Exercicio1();
+
+            Console.WriteLine("Exercicio 1:");
+            exercicio1.TwoArrays();
         }
     }
 }
