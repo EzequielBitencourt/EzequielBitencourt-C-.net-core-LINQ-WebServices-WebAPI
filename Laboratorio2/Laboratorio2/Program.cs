@@ -32,6 +32,13 @@ namespace Laboratorio2
 
             Console.WriteLine("Exercicio 1:");
             exercicio1.TwoArrays();
+            Console.WriteLine("\n");
+
+            //Exercicio 2
+            Exercicio2 exercicio2 = new Exercicio2();
+            Console.WriteLine("Exercicio 2:");
+            exercicio2.CalculoMatriz();
+
         }
     }
 }

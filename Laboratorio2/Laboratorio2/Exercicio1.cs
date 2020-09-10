@@ -27,11 +27,14 @@ namespace Laboratorio2
             }
 
             Console.WriteLine("==========================================");
+
             for (int i = 0; i < arr1.Length; i++)
             {
                 arr2[i] = arr1[i];
                 Console.WriteLine($"Array 2 : {arr2[i].ToString()}");
             }
+
+            Console.WriteLine("==========================================");
 
         }
     }

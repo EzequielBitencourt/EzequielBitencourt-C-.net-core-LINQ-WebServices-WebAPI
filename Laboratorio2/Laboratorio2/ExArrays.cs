@@ -36,7 +36,6 @@ namespace Laboratorio2
         public void Ex3()
         {
             DateTime[] dt = new DateTime[2];
-            int iDate;
             dt[0] = new DateTime(2002, 5, 1);
             dt[1] = new DateTime(2002, 6, 1);
             /* for (iDate = 0; iDate < 2; iDate++)
