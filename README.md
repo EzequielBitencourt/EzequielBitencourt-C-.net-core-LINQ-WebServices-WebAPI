@@ -6,3 +6,6 @@ conversão entre tipos e introduzir as operações básicas de manipulação de 
 
 Laboratório 2 : Arrays
 Este laboratório introduz o uso de arrays.
+
+Laboratório 3 : Definindo Classes
+Este laboratório introduz o processo de criação de classes em C#.
