@@ -9,7 +9,7 @@ using System.Text;
 
 namespace Laboratorio3
 {
-    class ContaCorrenteEx4
+    class ContaCorrenteEx1
     {
         private decimal saldo;
         private DateTime data;
@@ -30,7 +30,7 @@ namespace Laboratorio3
             get { return name; }
         }
 
-        public ContaCorrenteEx4(decimal valSaldo,String valName)
+        public ContaCorrenteEx1(decimal valSaldo,String valName)
         {
             saldo = valSaldo;
             name = valName;

@@ -16,11 +16,27 @@ namespace Laboratorio3
             Console.WriteLine(minhaConta.Saldo);
             */
 
-            //Exercicio 4
-            ContaCorrenteEx4 minhaContaEx4 = new ContaCorrenteEx4(100,"Ezequiel");
+            //Exercicio 1
+            /*
+            ContaCorrenteEx1 minhaContaEx1 = new ContaCorrenteEx1(100,"Ezequiel");
 
             minhaContaEx4.DadosCliente();
+            minhaContaEx4.Depositar(100);
+            minhaContaEx4.DadosCliente();
+            minhaContaEx4.Sacar(50);
+            minhaContaEx4.DadosCliente();
+            */
 
+            //Exercicio 2
+
+            ContaCorrenteEx2 minhaContaEx2 = new ContaCorrenteEx2(100, "Ezequiel");
+
+            minhaContaEx2.DadosCliente();
+            minhaContaEx2.Depositar(100);
+            minhaContaEx2.DadosCliente();
+            minhaContaEx2.Sacar(50);
+            minhaContaEx2.DadosCliente();
+            minhaContaEx2.SaldoMedio();
         }
     }
 }
