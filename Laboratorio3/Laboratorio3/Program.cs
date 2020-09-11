@@ -28,7 +28,7 @@ namespace Laboratorio3
             */
 
             //Exercicio 2
-
+            /*
             ContaCorrenteEx2 minhaContaEx2 = new ContaCorrenteEx2(100, "Ezequiel");
 
             minhaContaEx2.DadosCliente();
@@ -37,6 +37,31 @@ namespace Laboratorio3
             minhaContaEx2.Sacar(50);
             minhaContaEx2.DadosCliente();
             minhaContaEx2.SaldoMedio();
+            */
+
+            //Exercicio 3
+            //3.Escreva um programa que instancia uma conta corrente, executa uma série de operações de depósito e
+            //retirada e, por fim, imprime o saldo da conta.
+            Console.WriteLine("Digite seu nome : ");
+            String nomeCliente = Console.ReadLine();
+
+            Console.WriteLine("Digite o saldo inicial : ");
+            int saldoInicialCliente = Convert.ToInt32(Console.ReadLine());
+
+            ContaCorrenteEx2 minhaContaEx3 = new ContaCorrenteEx2(saldoInicialCliente,nomeCliente);
+
+            minhaContaEx3.DadosCliente();
+
+            minhaContaEx3.Depositar(100);
+            minhaContaEx3.Sacar(50);
+            minhaContaEx3.Depositar(1000);
+            minhaContaEx3.Sacar(845);
+            minhaContaEx3.Depositar(1500);
+
+            minhaContaEx3.DadosCliente();
+            minhaContaEx3.SaldoMedio();
+
+
         }
     }
 }
