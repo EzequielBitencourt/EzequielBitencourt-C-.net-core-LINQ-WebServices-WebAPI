@@ -1,34 +1,37 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-public class CirculoColorido : Circulo
+
+namespace Laboratorio4
 {
-    private string minhaCor;
-    public CirculoColorido()
+    public class CirculoColorido : Circulo
     {
-        minhaCor = "preto";
-    }
-    public CirculoColorido(double x, double y, double r, string c)
-    : base(x, y, r)
-    {
-        minhaCor = c;
-    }
-    public string Cor
-    {
-        get
+        private string minhaCor;
+        public CirculoColorido()
         {
-            return minhaCor;
+            minhaCor = "preto";
         }
-        set
+        public CirculoColorido(double x, double y, double r, string c)
+        : base(x, y, r)
         {
-            minhaCor = value;
+            minhaCor = c;
         }
-    }
+        public string Cor
+        {
+            get
+            {
+                return minhaCor;
+            }
+            set
+            {
+                minhaCor = value;
+            }
+        }
 
-    public override string ToString()
-    {
-        return base.ToString() + " cor=" + Cor;
-    }
+        public override string ToString()
+        {
+            return base.ToString() + " cor=" + Cor;
+        }
 
+    }
 }
-

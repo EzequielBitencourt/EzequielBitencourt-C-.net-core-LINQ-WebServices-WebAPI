@@ -2,59 +2,62 @@
 using System.Collections.Generic;
 using System.Text;
 
-public class Circulo
+namespace Laboratorio4
 {
-    private double coordX;
-    private double coordY;
-    private double raio;
-    public Circulo()
-    : this(0, 0, 1)
+    public class Circulo
     {
-    }
-    public Circulo(double x, double y, double r)
-    {
-        coordX = x;
-        coordY = y;
-        raio = Math.Abs(r);
-    }
-    public double CentroX
-    {
-        get
+        private double coordX;
+        private double coordY;
+        private double raio;
+        public Circulo()
+        : this(0, 0, 1)
         {
-            return coordX;
         }
-        set
+        public Circulo(double x, double y, double r)
         {
-            coordX = value;
+            coordX = x;
+            coordY = y;
+            raio = Math.Abs(r);
         }
-    }
-    public double CentroY
-    {
-        get
+        public double CentroX
         {
-            return coordY;
+            get
+            {
+                return coordX;
+            }
+            set
+            {
+                coordX = value;
+            }
         }
-        set
+        public double CentroY
         {
-            coordY = value;
+            get
+            {
+                return coordY;
+            }
+            set
+            {
+                coordY = value;
+            }
         }
-    }
-    public double Raio
-    {
-        get
+        public double Raio
+        {
+            get
 
-        {
-            return raio;
+            {
+                return raio;
+            }
+            set
+            {
+                raio = value;
+            }
         }
-        set
+        public override string ToString()
         {
-            raio = value;
+            return "(" + string.Format("{0:F2}", CentroX) + ";"
+            + string.Format("{0:F2}", CentroY) + ")"
+            + " raio=" + string.Format("{0:F2}", Raio);
         }
-    }
-    public override string ToString()
-    {
-        return "(" + string.Format("{0:F2}", CentroX) + ";"
-        + string.Format("{0:F2}", CentroY) + ")"
-        + " raio=" + string.Format("{0:F2}", Raio);
     }
 }

@@ -9,3 +9,6 @@ Este laboratório introduz o uso de arrays.
 
 Laboratório 3 : Definindo Classes
 Este laboratório introduz o processo de criação de classes em C#.
+
+Laboratório 4 : Classes e Herança
+Este laboratório introduz a herança e sobrescrita de métodos em C#.
