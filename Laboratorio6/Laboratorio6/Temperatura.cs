@@ -12,18 +12,18 @@ namespace Laboratorio6
         {
             temperatura = 0.0;
         }
-        public double Temperatura
+        public virtual double Temperatura
         {
             get
             {
                 return temperatura;
             }
         }
-        public void Aumentar(double t)
+        public virtual void Aumentar(double t)
         {
             temperatura += t;
         }
-        public void Diminuir(double t)
+        public virtual void Diminuir(double t)
         {
             temperatura -= t;
         }
