@@ -12,3 +12,7 @@ Este laboratório introduz o processo de criação de classes em C#.
 
 Laboratório 4 : Classes e Herança
 Este laboratório introduz a herança e sobrescrita de métodos em C#.
+
+Laboratório 5 : Classes Abstratas
+Este laboratório introduz o processo de derivação de classes em C# via herança e sobrescrita de
+métodos e propriedades de uma classe abstrata.
