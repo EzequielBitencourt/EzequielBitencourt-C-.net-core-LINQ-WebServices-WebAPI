@@ -26,3 +26,6 @@ Este laboratório introduz o conceito de implementação de interfaces presentes
 Laboratório 8 : Coleções Genéricas
 Este laboratório introduz o uso de coleções genéricas como listas, filas e
 dicionários.
+
+Laboratório 10 : LINQ to Object
+Este laboratório introduz a manipulação de consultas LINQ sobre coleções de objetos.
