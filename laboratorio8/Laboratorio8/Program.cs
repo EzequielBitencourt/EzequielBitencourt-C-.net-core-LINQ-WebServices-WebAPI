@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Laboratório 8 – Coleções Genéricas
+//Este laboratório introduz o uso de coleções genéricas como listas, filas e
+//dicionários.
+using System;
 using System.Collections.Generic;
 
 namespace laboratorio8
