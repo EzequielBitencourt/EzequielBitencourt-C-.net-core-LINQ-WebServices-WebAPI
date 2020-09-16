@@ -43,34 +43,36 @@ namespace Laboratorio10
             //pessoas casadas e solteiras.
             Console.WriteLine("\n============================================");
             Console.WriteLine("\nExercicio 1");
-            var linqEx1 = pessoas.Where(p => p.Casada == false || p.Casada == true);
-            
-            
-            foreach (var pessoa in linqEx1)
+
+            foreach (var item in pessoas)
             {
-               Console.WriteLine(pessoa);
+                Console.WriteLine(item);
             }
 
-            Console.WriteLine("Numero de pessoas casadas : "+linqEx1.Where(p => p.Casada == true).Count());
-            Console.WriteLine("Numero de pessoas solteiras :"+linqEx1.Where(p => p.Casada == false).Count());
+            Console.WriteLine("Numero de pessoas casadas : " + pessoas.Where(p => p.Casada).Count());
+            Console.WriteLine("Numero de pessoas solteiras : " + pessoas.Where(p => !p.Casada).Count());
 
             //Exercicio 2
             //Construa uma consulta que retorne a pessoa mais velha.
-            Console.WriteLine("\n============================================");
+            Console.WriteLine("\n============================================"); 
             Console.WriteLine("\nExercicio 2");
 
-            var linqEx2 = pessoas.Where(p => p.DataNascimento == pessoas.Min(p => p.DataNascimento));
+            var linqEx2 = pessoas
+                .Where(p => p.DataNascimento == pessoas.Min(p => p.DataNascimento))
+                .Select(p => new { p.Nome, p.Casada, p.DataNascimento }).FirstOrDefault();
 
-            Console.WriteLine(linqEx2.FirstOrDefault());
+            Console.WriteLine(linqEx2);
 
             //Exercicio 3
             //Construa uma consulta que retorne a pessoa solteira mais nova.
             Console.WriteLine("\n============================================");
             Console.WriteLine("\nExercicio 3");
 
-            var linqEx3 = pessoas.Where(p => p.Casada == false && p.DataNascimento == pessoas.Max(p => p.DataNascimento));
+            var linqEx3 = pessoas
+                .Where(p => !p.Casada && p.DataNascimento == pessoas.Max(p => p.DataNascimento))
+                .Select(p => new { p.Nome, p.Casada, p.DataNascimento }).FirstOrDefault();
 
-            Console.WriteLine(linqEx3.FirstOrDefault());
+            Console.WriteLine(linqEx3);
 
         }
     }
