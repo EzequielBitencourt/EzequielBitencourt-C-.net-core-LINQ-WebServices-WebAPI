@@ -23,6 +23,5 @@ Este laboratório introduz o conceito de definição e implementação de novas 
 Laboratório 7 : Interfaces do Framework
 Este laboratório introduz o conceito de implementação de interfaces presentes no .NET.
 
-Laboratório 8 : Coleções Genéricas
-Este laboratório introduz o uso de coleções genéricas como listas, filas e
-dicionários.
+Laboratório 10 : LINQ to Object
+Este laboratório introduz a manipulação de consultas LINQ sobre coleções de objetos.
