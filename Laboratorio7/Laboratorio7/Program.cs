@@ -43,13 +43,18 @@ namespace Laboratorio7
                 p2,
                 p3
             };
+
             Console.WriteLine("\nArray Atual");
+
             for (int i = 0; i < lista2.Length; i++)
             {
                 Console.Write(lista2[i].Nome + " ");
             }
+
             Array.Sort(lista2);
+
             Console.WriteLine("\nArray depois da ordenacao por idade");
+
             for (int i = 0; i < lista2.Length; i++)
             {
                 Console.Write(lista2[i].Nome + " ");
@@ -58,17 +63,19 @@ namespace Laboratorio7
             //Existe outra interface que poderia ser utilizada para resolver a questão da ordenação? Qual? Mostre como
             //ficaria a solução.
             Console.Write("\n================================================");
+            
             //LINQ
+
             Console.Write("\nOrdenação em LINQ por nome");
-            IEnumerable <Pessoa> query = lista2.OrderBy(lista2 => lista2.Nome);
+            IEnumerable<Pessoa> query = lista2.OrderBy(lista2 => lista2.Nome);
 
 
             foreach (Pessoa pessoa2 in query)
             {
-                Console.Write("\n{0} - {1}",pessoa2.Nome,pessoa2.Idade);
+                Console.Write("\n{0} - {1}", pessoa2.Nome, pessoa2.Idade);
             }
-            
-            
+
+
         }
     }
 }

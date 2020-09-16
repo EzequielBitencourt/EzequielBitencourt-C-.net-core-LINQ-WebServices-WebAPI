@@ -19,3 +19,10 @@ métodos e propriedades de uma classe abstrata.
 
 Laboratório 6 : Interfaces
 Este laboratório introduz o conceito de definição e implementação de novas interfaces.
+
+Laboratório 7 : Interfaces do Framework
+Este laboratório introduz o conceito de implementação de interfaces presentes no .NET.
+
+Laboratório 8 : Coleções Genéricas
+Este laboratório introduz o uso de coleções genéricas como listas, filas e
+dicionários.
