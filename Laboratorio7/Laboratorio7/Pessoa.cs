@@ -39,25 +39,25 @@ namespace Laboratorio7
 
         //Você conseguiria criar uma classe Pessoa que permitisse ordenar ora por nome, ora pela idade, utilizando
         //a interface IComparable?
-        public void metodoOrdenacao(int res)
-        {
-            x = res;
-        }
+        //public void metodoOrdenacao(int res)
+        //{
+        //    x = res;
+        //}
         public int CompareTo(Pessoa outro)
         {
 
-            if (x == 1)
-            {
-                return minhaIdade.CompareTo(outro.minhaIdade);
-            }
-            else if (x == 2)
-            {
-                return meuNome.CompareTo(outro.meuNome);
-            }
-            else
-            {
-                return 0;
-            }
+            //if (x == 1)
+            //{
+            return minhaIdade.CompareTo(outro.minhaIdade);
+            //}
+            //else if (x == 2)
+            //{
+            //    return meuNome.CompareTo(outro.meuNome);
+            //}
+            //else
+            //{
+            //    return 0;
+            //}
 
 
 
