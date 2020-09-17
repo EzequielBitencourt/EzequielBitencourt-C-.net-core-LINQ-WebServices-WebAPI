@@ -27,5 +27,9 @@ Laboratório 8 : Coleções Genéricas
 Este laboratório introduz o uso de coleções genéricas como listas, filas e
 dicionários.
 
+Laboratório 9 : Eventos e Delegates
+Este laboratório introduz a manipulação de tipos delegate e a declaração de eventos em C# diretamente em
+código.
+
 Laboratório 10 : LINQ to Object
 Este laboratório introduz a manipulação de consultas LINQ sobre coleções de objetos.
