@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace testeasp
+namespace todoapi
 {
     public class Startup
     {
@@ -25,6 +25,8 @@ namespace testeasp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var todoRepositorio = new TodoRepository();
+            services.AddSingleton(typeof(ITodoRepository),todoRepositorio);
             services.AddControllers();
         }
 
